@@ -36,9 +36,9 @@
                 break;
             default:
                 // Categories like ENGAGEMENT and PROMOTION gets filtered optionally.
-                if ( setOfCategoriesToHide.has(category) ) {
+                //TEST if ( setOfCategoriesToHide.has(category) ) {
                     feedUnit.classList.add(magic);
-                }
+                //TEST}
         }
     };
     const checkWhetherFeedUnit = ( node ) => {
